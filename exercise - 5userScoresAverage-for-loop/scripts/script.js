@@ -3,8 +3,8 @@
 
 var Average = 0
 
-for(var i = 1 ; i < 6 ; i = i +1){
-    Average = Average + Number(prompt("please enter " + i + "st your scores: "))
+for(var i = 0 ; i < 5 ; i = i +1){
+    Average = Average + Number(prompt("please enter " + (i + 1) + "st your scores: "))
 }
 
 alert("🚀your Average is:  " + Average / 5)
