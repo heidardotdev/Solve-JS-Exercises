@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 20%;
+}
+
+input, button{
+    padding: 1rem;
+}
+
+#modal{
+    width: 20%;
+    height: 20rem;
+    background-color: #1ac37c;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 2rem;
+}
